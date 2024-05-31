@@ -1,0 +1,182 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+
+body {
+  font-family: futura;
+}
+
+@include mobile {
+  .main {
+    padding: 1rem;
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-leftt {
+        display: flex;
+        flex-direction: column;
+      }
+      &-top {
+        display: flex;
+        align-items: center;
+      }
+      &-money {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $primary-one;
+        padding-right: 1rem;
+        margin: 0;
+      }
+      &-icons {
+        padding-top: 0.4rem;
+        &-left {
+          background-color: $primary-five;
+          border-radius: 50%;
+          padding: 0.2rem;
+          width: 1.5rem;
+        }
+        &-right {
+          padding-left: 1rem;
+          width: 1.5rem;
+        }
+      }
+
+      &-bottom {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: $primary-two;
+        padding-right: 1rem;
+      }
+      &-allTime {
+        padding-top: 0.3rem;
+        margin: 0;
+        text-align: start;
+      }
+      &-rightt {
+
+        &-right {
+            
+        }
+      }
+      &-following {
+        position: relative;
+        left: 1.5rem;
+        background-color: $primary-six;
+        border-top-left-radius:  1rem;
+        border-bottom-left-radius: 1rem;
+        &-h{
+            font-size: 1rem;
+            padding: 0.5rem 1.5em;
+        }
+    }
+      &-followers {
+        position: relative;
+        left: 1.5rem;
+        background-color: $primary-six;
+        border-top-left-radius:  1rem;
+        border-bottom-left-radius: 1rem;
+        &-h{
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+        }
+      }
+      
+    }
+    &__piechart {
+        margin-top: 2rem;
+        height: 20rem;
+      &-circle {
+        position: relative;
+        top: -18.5rem;
+        left: 5rem;
+        width: 13rem;
+        height: 13rem;
+        background-color: white;
+        border-radius: 50%; 
+        &-header{
+            position: relative;
+            top: 5rem;
+            font-size: 2.5rem;
+            color: $primary-two;
+        }
+      }
+      &-FHQ{
+        display: flex;
+        background-color: $primary-five;
+        width: 4.8rem;
+        border-radius: 20rem;
+        align-items: center;
+        padding: 0.3rem;
+        position: relative;
+        top: -20rem;
+        
+      }
+      &-HBLK{
+        display: flex;
+        background-color: $primary-five;
+        width: 4.8rem;
+        border-radius: 20rem;
+        align-items: center;
+        padding: 0.3rem;
+        position: relative;
+        top: -38rem;
+        left: 2rem;
+    }
+      
+      &-VEA{
+        display: flex;
+        background-color: $primary-five;
+        width: 4.8rem;
+        border-radius: 20rem;
+        align-items: center;
+        padding: 0.3rem;
+        position: relative;
+        top: -40rem;
+        left: 15rem;
+    }
+      
+      &-VUG{
+        display: flex;
+        background-color: $primary-five;
+        width: 4.8rem;
+        border-radius: 20rem;
+        align-items: center;
+        padding: 0.3rem;
+        position: relative;
+        top: -37rem;
+        left: 18.5rem;
+    }
+      
+      &-header{
+        background-color: $primary-three;
+        border-radius: 20rem;
+        margin-right: 0.5rem;
+      }
+      &-h{
+        padding: 0.4rem;
+        color: white;
+        margin: 0;
+        font-size: 0.8rem;
+      }
+      &-n{
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    }
+    &__stocks {
+      &-header {
+        padding-top: 1rem;
+        text-align: start;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $primary-one;
+        padding-right: 1rem;
+        margin: 0;
+      }
+      &-container {
+
+      }
+    }
+  }
+}

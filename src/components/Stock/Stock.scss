@@ -1,0 +1,63 @@
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/colors" as *;
+
+@include mobile {
+  .main {
+    &__stock {
+      &-card {
+        padding: 0.7rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &-left {
+        display: flex;
+        align-items: center;
+      }
+      &-circle {
+        width: 2rem;
+        height: 2rem;
+        background-color: black;
+        border-radius: 50%;
+      }
+      &-etf {
+        text-align: center;
+        padding-top: 0.7rem;
+        margin: 0;
+        color: white;
+        font-size: 0.6rem;
+      }
+      &-mid {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      &-header {
+        margin: 0;
+        font-size: 1rem;
+        text-align: end;
+      }
+      &-name {
+        padding-top: 0.5rem;
+        margin: 0;
+        color: $primary-two;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      &-right {
+      }
+      &-gainz {
+        padding-top: 0.5rem;
+        margin: 0;
+        text-align: end;
+        font-size: 1rem;
+        color: $primary-four;
+      }
+      &-hr{
+        border: 0.5px solid $primary-five;
+      }
+    }
+  }
+}

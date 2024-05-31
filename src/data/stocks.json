@@ -1,0 +1,25 @@
+[{
+    "etf": "HBLK",
+    "etfName": "Blockchain Technolo...",
+    "etfTotal": "$16.16 CAD",
+    "gainz": "-$0.54 (-3.23%)"
+},
+{
+    "etf": "FHQ",
+    "etfName": "First Trust Alphadex...",
+    "etfTotal": "$85.61 CAD",
+    "gainz": "-$1.23 (-1.42%)"
+},
+{
+    "etf": "VEA",
+    "etfName": "Vanguard Group, In...",
+    "etfTotal": "$49.64 USD",
+    "gainz": "-$0.33 (-0.66%)"
+},
+{
+    "etf": "VUG",
+    "etfName": "Vanguard Index Fun...",
+    "etfTotal": "$341.83 USD",
+    "gainz": "-$2.44 (-0.71%)"
+}
+]
