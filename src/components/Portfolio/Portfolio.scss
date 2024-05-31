@@ -1,6 +1,7 @@
 @use "../../styles/partials/breakpoints" as *;
 @use "../../styles/partials/colors" as *;
 @use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/mixins" as *;
 
 body {
   font-family: futura;
@@ -102,48 +103,24 @@ body {
         }
       }
       &-FHQ{
-        display: flex;
-        background-color: $primary-five;
-        width: 4.8rem;
-        border-radius: 20rem;
-        align-items: center;
-        padding: 0.3rem;
-        position: relative;
+        @include piechart_card;
         top: -20rem;
         
       }
       &-HBLK{
-        display: flex;
-        background-color: $primary-five;
-        width: 4.8rem;
-        border-radius: 20rem;
-        align-items: center;
-        padding: 0.3rem;
-        position: relative;
+        @include piechart_card;
         top: -38rem;
         left: 2rem;
     }
       
       &-VEA{
-        display: flex;
-        background-color: $primary-five;
-        width: 4.8rem;
-        border-radius: 20rem;
-        align-items: center;
-        padding: 0.3rem;
-        position: relative;
+        @include piechart_card;
         top: -40rem;
         left: 15rem;
     }
       
       &-VUG{
-        display: flex;
-        background-color: $primary-five;
-        width: 4.8rem;
-        border-radius: 20rem;
-        align-items: center;
-        padding: 0.3rem;
-        position: relative;
+        @include piechart_card;
         top: -37rem;
         left: 18.5rem;
     }
